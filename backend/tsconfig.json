@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@controllers/*": ["controllers/*"],
+      "@routes/*": ["routes/*"],
+      "@validation/*": ["validation/*"],
+      "@utils/*": ["utils/*"],
+      "@middleware/*": ["middleware/*"]
+    },
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+}
